@@ -203,6 +203,7 @@
         <DCCReference Include="uAiVectors.pas"/>
         <DCCReference Include="uAGraph.pas"/>
         <DCCReference Include="uAiGemini.pas"/>
+        <DCCReference Include="uRegisteration.pas"/>
         <RcItem Include="TAIGraph.bmp">
             <ResourceType>BITMAP</ResourceType>
             <ResourceId>TAiGraph</ResourceId>

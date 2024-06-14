@@ -68,17 +68,10 @@ type
   Published
   End;
 
-procedure Register;
-
 implementation
 
 Const
   GlAIUrl = 'http://192.168.101.13:11434/';
-
-procedure Register;
-begin
-  RegisterComponents('MakerAI', [TAiOllamaChat, TAiOlamalEmbeddings]);
-end;
 
 constructor TAiOlamalEmbeddings.Create(aOwner: TComponent);
 begin

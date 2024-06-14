@@ -58,17 +58,11 @@ Type
   Published
   End;
 
-procedure Register;
 
 implementation
 
 Const
   GlAIUrl = 'https://api.groq.com/openai/v1/';
-
-procedure Register;
-begin
-  RegisterComponents('MakerAI', [TAiGroqChat]);
-end;
 
 { TAiOllamaChat }
 

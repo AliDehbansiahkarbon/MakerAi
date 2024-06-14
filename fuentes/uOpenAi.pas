@@ -830,7 +830,6 @@ type
     // = (Tfc_Image, Tfc_Audio, Tfc_Video, Tfc_Document, Tfc_Text, Tfc_CalcSheet, Tfc_Presentation, Tfc_CompressFile, Tfc_Web, Tfc_Aplication, Tfc_DiskImage, Tfc_GraphicDesign, Tfc_Unknow); :
   End;
 
-procedure Register;
 
 implementation
 
@@ -843,11 +842,6 @@ uses uLinuxUtils;
 uses ShellAPI, WinApi.Windows;
 {$ENDIF}
 {$REGION 'Utilidades varias' }
-
-procedure Register;
-begin
-  RegisterComponents('MakerAI', [TAiEmbeddings, TAiVision, TAiAudio, TAiImages]);
-end;
 
 function GetParametrosURL(Parametros: TStringList): string;
 var

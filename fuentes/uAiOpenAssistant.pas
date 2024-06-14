@@ -164,14 +164,8 @@ type
     Property Url: String read FUrl write SetUrl;
   end;
 
-procedure Register;
-
 implementation
 
-procedure Register;
-begin
-  RegisterComponents('MakerAI', [TAiOpenAssistant]);
-end;
 
 { TAiOpenAssistant }
 

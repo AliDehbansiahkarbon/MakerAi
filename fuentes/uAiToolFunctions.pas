@@ -172,14 +172,7 @@ type
   end;
 }
 
-procedure Register;
-
 implementation
-
-procedure Register;
-begin
-  RegisterComponents('MakerAI', [TAiFunctions]);
-end;
 
 { TWebTagActionItem }
 

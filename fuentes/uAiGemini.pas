@@ -66,18 +66,12 @@ type
   Published
   End;
 
-procedure Register;
 
 implementation
 
 Const
   GlAIUrl = 'https://generativelanguage.googleapis.com/v1beta/';
   // https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=$GOOGLE_API_KEY
-
-procedure Register;
-begin
-  RegisterComponents('MakerAI', [TAiGeminiChat]);
-end;
 
 { TAiGeminiChat }
 

@@ -352,14 +352,8 @@ type
     Property OnProcessMediaFile: TAiOpenChatOnMediaFile read FOnProcessMediaFile write SetOnProcessMediaFile;
   end;
 
-procedure Register;
 
 implementation
-
-procedure Register;
-begin
-  RegisterComponents('MakerAI', [TAiOpenChat, TAiChatConfig]);
-end;
 
 { TAiChat }
 

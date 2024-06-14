@@ -47,6 +47,7 @@ contains
   uAiPrompts in 'uAiPrompts.pas',
   uAiVectors in 'uAiVectors.pas',
   uAGraph in 'uAGraph.pas',
-  uAiGemini in 'uAiGemini.pas';
+  uAiGemini in 'uAiGemini.pas',
+  uRegisteration in 'uRegisteration.pas';
 
 end.

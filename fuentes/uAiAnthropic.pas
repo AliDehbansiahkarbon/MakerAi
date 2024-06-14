@@ -73,17 +73,11 @@ type
   Published
   End;
 
-procedure Register;
 
 implementation
 
 Const
   GlAIUrl = 'https://api.anthropic.com/v1/';
-
-procedure Register;
-begin
-  RegisterComponents('MakerAI', [TAiClaudeChat]);
-end;
 
 { TAiClaudChat }
 

@@ -38,14 +38,8 @@ type
     Property Items: TCollection Read FItems Write FItems;
   end;
 
-procedure Register;
 
 implementation
-
-procedure Register;
-begin
-  RegisterComponents('MakerAI', [TAiPrompts]);
-end;
 
 constructor TAiPromptItem.Create(Collection: TCollection);
 Begin

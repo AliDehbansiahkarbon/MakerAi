@@ -145,14 +145,7 @@ type
 
   end;
 
-procedure Register;
-
 implementation
-
-procedure Register;
-begin
-  RegisterComponents('MakerAI', [TAIGraph, TAIGraphNode, TAIGraphLink]);
-end;
 
 { TAIGraph }
 

@@ -152,15 +152,8 @@ type
     Property DataVec: TAiDataVec read FDataVec write SetDataVec;
   End;
 
-procedure Register;
 
 implementation
-
-procedure Register;
-begin
-  RegisterComponents('MakerAI', [TAiRagChat, TAiDataVec]);
-
-end;
 
 procedure TAiEmbeddingNode.SetData(const Value: TAiEmbeddingData);
 begin
